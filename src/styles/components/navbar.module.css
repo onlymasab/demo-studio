@@ -1,0 +1,41 @@
+.navbar {
+     width: 100%;
+    /* background-color: aquamarine;  */
+   
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.nevitems {
+    display: inline-flex;
+    list-style: none;
+}
+
+.nevitems > li {
+    padding: 0px 24px;
+}
+
+.right_actions {
+
+}
+
+.right_actions > a {
+    padding-right: 32px;
+}
+
+.right_actions > button {
+    padding: 14px 24px;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color: plum;
+}
