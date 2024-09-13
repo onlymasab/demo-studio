@@ -1,0 +1,24 @@
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+
+
+
+.heroText {
+    font-size: 68px;
+}
+
+.heroImage {
+    width: 1560px;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    border-radius: 56px;
+    object-fit: cover;
+    
+}
+

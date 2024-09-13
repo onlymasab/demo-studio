@@ -1,5 +1,7 @@
 
 import Image from "next/image"
+import background from "@/assets/image/jpg/image-01.jpg"
+import Styles from "@/styles/components/hero.module.css"
 
 
 
@@ -9,11 +11,14 @@ import Image from "next/image"
     return (
 
         <>
-            <h1>Plan.<br/>Manage.<br/>Build</h1>
-            <div>/</div>
-            <h3>Our Difference Is In The Finishing</h3>
-            <button>Work</button>
-            <Image src = {""} width={100} height={100} alt="hero image" />
+            <div className={Styles.wrapper}>
+                <h1 className={Styles.heroText}>Plan.<br/>Manage.<br/>Build</h1>
+                <div>/</div>
+                <h3>Our Difference Is In The Finishing</h3>
+                <button>Work</button>
+            </div>
+            
+            <Image className={Styles.heroImage} src = {background} width={3840} height={2160} alt="hero image" />
         </>
 
     );
