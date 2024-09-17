@@ -4,17 +4,53 @@
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
+    padding: 32px;
+}
+
+.rightWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.rightWrapper:nth-child(2) h3 {
+    padding: 0 56px;
+    font-weight:500;
+}
+
+.rightWrapper > div {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.rightWrapper > button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.rightWrapper > button > span {
+    padding-right: 16px;
 }
 
 
 
+
+
+
 .heroText {
+    font-weight: 600;
     font-size: 68px;
 }
 
 .heroImage {
     width: 1560px;
-    height: 480px;
+    height: 560px;
     margin: auto;
     display: flex;
     border-radius: 56px;
